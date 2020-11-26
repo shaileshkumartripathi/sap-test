@@ -1,0 +1,3 @@
+com\football\client\TeamClientHandlingTest.class
+com\football\service\GetTeamServiceTest.class
+com\football\controller\AbstractTest.class

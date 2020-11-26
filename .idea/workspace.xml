@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4f2357e6-6105-4a17-90a7-783eaf82fefa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.jenkins/Jenkinsfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/football/FootBallApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/football/client/TeamClientHandling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/football/config/RestClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/football/config/RestTemplateHeaderModifierInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/football/controller/FootBallController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/football/dto/GetTeamDataTransferObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/football/exception/BadRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/football/model/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/football/model/GetTeam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/football/model/Leagues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/football/model/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/football/service/GetTeamService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/football/client/TeamClientHandlingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/football/controller/AbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/football/service/GetTeamServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Assessment-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Assessment-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/football/FootBallApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/football/client/TeamClientHandling.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/football/config/RestClientConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/football/config/RestTemplateHeaderModifierInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/football/controller/FootBallController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/football/dto/GetTeamDataTransferObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/football/exception/BadRequestException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/football/model/Country.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/football/model/GetTeam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/football/model/Leagues.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/football/model/Request.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/football/service/GetTeamService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.football.service.GetTeamServiceTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.football.service.GetTeamServiceTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/football/client/TeamClientHandlingTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/football/controller/AbstractTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/football/service/GetTeamServiceTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kjR92kQT05oHzVit7Ou4ICQaW3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.35632184" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.football.service" />
+      <recent name="com.football.client" />
+      <recent name="com.football.controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\Shailesh.Tripathi\IdeaProjects\Assessment\.jenkins" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TeamClientHandlingTest (1)">
+    <configuration name="FootBallApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.football.FootBallApplication" />
+      <module name="Assessment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.football.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetTeamServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assessment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.football.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.football.service" />
+      <option name="MAIN_CLASS_NAME" value="com.football.service.GetTeamServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetTeamServiceTest.getTeamStanding" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assessment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.football.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.football.service" />
+      <option name="MAIN_CLASS_NAME" value="com.football.service.GetTeamServiceTest" />
+      <option name="METHOD_NAME" value="getTeamStanding" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeamClientHandlingTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assessment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.football.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.football.client" />
+      <option name="MAIN_CLASS_NAME" value="com.football.client.TeamClientHandlingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeamClientHandlingTest.pullTeamForFirstCountryAndFirstLeagueSuccessfulWithValidCountryIdAndValidLeagueId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assessment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.football.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.football.client" />
+      <option name="MAIN_CLASS_NAME" value="com.football.client.TeamClientHandlingTest" />
+      <option name="METHOD_NAME" value="pullTeamForFirstCountryAndFirstLeagueSuccessfulWithValidCountryIdAndValidLeagueId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TeamClientHandlingTest (1)" />
+        <item itemvalue="Application.FootBallApplication" />
+        <item itemvalue="JUnit.GetTeamServiceTest" />
+        <item itemvalue="JUnit.GetTeamServiceTest.getTeamStanding" />
+        <item itemvalue="JUnit.TeamClientHandlingTest.pullTeamForFirstCountryAndFirstLeagueSuccessfulWithValidCountryIdAndValidLeagueId" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f2357e6-6105-4a17-90a7-783eaf82fefa" name="Default Changelist" comment="" />
+      <created>1606211858146</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606211858146</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="360" y="27" key="#Project_Structure" timestamp="1606225178358">
+      <screen x="0" y="0" width="1536" height="739" />
+    </state>
+    <state x="360" y="27" key="#Project_Structure/0.0.1536.739@0.0.1536.739" timestamp="1606225178358" />
+    <state x="92" y="92" width="1352" height="555" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1606240243267">
+      <screen x="0" y="0" width="1536" height="739" />
+    </state>
+    <state x="92" y="92" width="1352" height="555" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.739@0.0.1536.739" timestamp="1606240243267" />
+    <state x="573" y="85" key="#com.intellij.ide.util.MemberChooser" timestamp="1606233124087">
+      <screen x="0" y="0" width="1536" height="739" />
+    </state>
+    <state x="573" y="85" key="#com.intellij.ide.util.MemberChooser/0.0.1536.739@0.0.1536.739" timestamp="1606233124087" />
+    <state x="498" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606408315448">
+      <screen x="0" y="0" width="1536" height="739" />
+    </state>
+    <state x="498" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.739@0.0.1536.739" timestamp="1606408315448" />
+    <state x="523" y="72" key="#xdebugger.evaluate" timestamp="1606243517774">
+      <screen x="0" y="0" width="1536" height="739" />
+    </state>
+    <state x="523" y="72" key="#xdebugger.evaluate/0.0.1536.739@0.0.1536.739" timestamp="1606243517774" />
+    <state width="1493" height="94" key="GridCell.Tab.0.bottom" timestamp="1606413780770">
+      <screen x="0" y="0" width="1536" height="739" />
+    </state>
+    <state width="1493" height="94" key="GridCell.Tab.0.bottom/0.0.1536.739@0.0.1536.739" timestamp="1606413780770" />
+    <state width="1877" height="312" key="GridCell.Tab.0.bottom/0.0.1920.955@0.0.1920.955" timestamp="1606312554564" />
+    <state width="1493" height="94" key="GridCell.Tab.0.center" timestamp="1606413780770">
+      <screen x="0" y="0" width="1536" height="739" />
+    </state>
+    <state width="1493" height="94" key="GridCell.Tab.0.center/0.0.1536.739@0.0.1536.739" timestamp="1606413780770" />
+    <state width="1877" height="312" key="GridCell.Tab.0.center/0.0.1920.955@0.0.1920.955" timestamp="1606312554564" />
+    <state width="1493" height="94" key="GridCell.Tab.0.left" timestamp="1606413780770">
+      <screen x="0" y="0" width="1536" height="739" />
+    </state>
+    <state width="1493" height="94" key="GridCell.Tab.0.left/0.0.1536.739@0.0.1536.739" timestamp="1606413780770" />
+    <state width="1877" height="312" key="GridCell.Tab.0.left/0.0.1920.955@0.0.1920.955" timestamp="1606312554564" />
+    <state width="1493" height="94" key="GridCell.Tab.0.right" timestamp="1606413780770">
+      <screen x="0" y="0" width="1536" height="739" />
+    </state>
+    <state width="1493" height="94" key="GridCell.Tab.0.right/0.0.1536.739@0.0.1536.739" timestamp="1606413780770" />
+    <state width="1877" height="312" key="GridCell.Tab.0.right/0.0.1920.955@0.0.1920.955" timestamp="1606312554564" />
+    <state width="1493" height="94" key="GridCell.Tab.1.bottom" timestamp="1606413780770">
+      <screen x="0" y="0" width="1536" height="739" />
+    </state>
+    <state width="1493" height="94" key="GridCell.Tab.1.bottom/0.0.1536.739@0.0.1536.739" timestamp="1606413780770" />
+    <state width="1493" height="323" key="GridCell.Tab.1.bottom/0.0.1920.955@0.0.1920.955" timestamp="1606306643021" />
+    <state width="1493" height="94" key="GridCell.Tab.1.center" timestamp="1606413780770">
+      <screen x="0" y="0" width="1536" height="739" />
+    </state>
+    <state width="1493" height="94" key="GridCell.Tab.1.center/0.0.1536.739@0.0.1536.739" timestamp="1606413780770" />
+    <state width="1493" height="323" key="GridCell.Tab.1.center/0.0.1920.955@0.0.1920.955" timestamp="1606306643021" />
+    <state width="1493" height="94" key="GridCell.Tab.1.left" timestamp="1606413780770">
+      <screen x="0" y="0" width="1536" height="739" />
+    </state>
+    <state width="1493" height="94" key="GridCell.Tab.1.left/0.0.1536.739@0.0.1536.739" timestamp="1606413780770" />
+    <state width="1493" height="323" key="GridCell.Tab.1.left/0.0.1920.955@0.0.1920.955" timestamp="1606306643021" />
+    <state width="1493" height="94" key="GridCell.Tab.1.right" timestamp="1606413780770">
+      <screen x="0" y="0" width="1536" height="739" />
+    </state>
+    <state width="1493" height="94" key="GridCell.Tab.1.right/0.0.1536.739@0.0.1536.739" timestamp="1606413780770" />
+    <state width="1493" height="323" key="GridCell.Tab.1.right/0.0.1920.955@0.0.1920.955" timestamp="1606306643021" />
+    <state x="298" y="24" key="Maven.ArtifactSearchDialog" timestamp="1606232966481">
+      <screen x="0" y="0" width="1536" height="739" />
+    </state>
+    <state x="298" y="24" key="Maven.ArtifactSearchDialog/0.0.1536.739@0.0.1536.739" timestamp="1606232966481" />
+    <state x="352" y="0" key="SettingsEditor" timestamp="1606325616607">
+      <screen x="0" y="0" width="1536" height="739" />
+    </state>
+    <state x="352" y="0" key="SettingsEditor/0.0.1536.739@0.0.1536.739" timestamp="1606325616607" />
+    <state x="440" y="51" key="SettingsEditor/0.0.1920.955@0.0.1920.955" timestamp="1606306054809" />
+    <state width="776" height="377" key="XDebugger.FullValuePopup" timestamp="1606316589033">
+      <screen x="0" y="0" width="1536" height="739" />
+    </state>
+    <state width="776" height="377" key="XDebugger.FullValuePopup/0.0.1536.739@0.0.1536.739" timestamp="1606316589033" />
+    <state x="655" y="301" key="com.intellij.ide.util.TipDialog" timestamp="1606311852365">
+      <screen x="0" y="0" width="1920" height="955" />
+    </state>
+    <state x="655" y="301" key="com.intellij.ide.util.TipDialog/0.0.1920.955@0.0.1920.955" timestamp="1606311852365" />
+    <state x="539" y="87" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1606242384472">
+      <screen x="0" y="0" width="1536" height="739" />
+    </state>
+    <state x="539" y="87" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.739@0.0.1536.739" timestamp="1606242384472" />
+    <state x="465" y="0" width="606" height="739" key="find.popup" timestamp="1606222885168">
+      <screen x="0" y="0" width="1536" height="739" />
+    </state>
+    <state x="465" y="0" width="606" height="739" key="find.popup/0.0.1536.739@0.0.1536.739" timestamp="1606222885168" />
+    <state x="510" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1606217413745">
+      <screen x="0" y="0" width="1536" height="739" />
+    </state>
+    <state x="510" y="0" key="refactoring.ChangeSignatureDialog/0.0.1536.739@0.0.1536.739" timestamp="1606217413745" />
+    <state x="424" y="165" key="run.anything.popup" timestamp="1606215078770">
+      <screen x="0" y="0" width="1536" height="739" />
+    </state>
+    <state x="424" y="165" key="run.anything.popup/0.0.1536.739@0.0.1536.739" timestamp="1606215078770" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/football/client/TeamClientHandlingTest.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/football/client/TeamClientHandlingTest.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/football/client/TeamClientHandlingTest.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/football/client/TeamClientHandlingTest.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/football/client/TeamClientHandlingTest.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/football/client/TeamClientHandlingTest.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/football/service/GetTeamServiceTest.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/football/service/GetTeamService.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/com/football/model/Request.java</url>
+          <line>8</line>
+          <properties field="teamName" class="com.football.model.Request" />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/com/football/model/Country.java</url>
+          <line>9</line>
+          <properties field="id" class="com.football.model.Country" />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
