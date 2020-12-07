@@ -1,0 +1,15 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name:  league-service
+  labels:
+    app.kubernetes.io/name: league-service
+spec:
+  ports:
+    - name: league-actuator
+      protocol: TCP
+      port: 8080
+      targetPort: 8080
+  selector:
+    app.kubernetes.io/name: league-deployment
+  type: ClusterIP

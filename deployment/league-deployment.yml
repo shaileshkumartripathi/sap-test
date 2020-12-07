@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app.kubernetes.io/name: league-deployment
+  name: league-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: league-deployment
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: league-deployment
+    spec:
+      containers:
+        - image: us.gcr.io/elite-pointer-296112/anonimizer-poc-mq:latest
+          name: league
+          imagePullPolicy: Always
+          envFrom:
+            - configMapRef:
+                name: league-configmap
+          ports:
+            - containerPort: 2220
+          resources:
+            limits:
+              memory: "2Gi"
+              cpu: "700m"
+            requests:
+              memory: "2Gi"
+              cpu: "700m"
