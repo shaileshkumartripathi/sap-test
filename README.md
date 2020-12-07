@@ -1,8 +1,3 @@
-# football-league
-
-http url: `http://localhost:8085/api/service/v1/team/standing?teamName=Leeds&countryName=England&leagueName=Championship`
-
-
 # Deployment league on GCP
 
 ## Creating cluster on GCP
